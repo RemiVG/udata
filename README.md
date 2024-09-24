@@ -60,7 +60,7 @@ Accès à UData via [localhost:7000](localhost:7000)
 
 Si le port 7000 est déjà utilisé par une autre application sur la machine, il faut modifier le fichier docker-compose.yml pour utiliser un port différent ou arrêter les autres services qui l'utilisent.
 
-## publier des données  
+## Publier des données  
 https://guides.data.gouv.fr/guide-data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees  
 
 1. création d'une organisation
