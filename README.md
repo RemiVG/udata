@@ -1,5 +1,9 @@
 # UData
-Repo pour l'exo udata du cours sur les catalogues de données
+Repo pour l'exo udata du cours sur les catalogues de données  
+udata est un logiciel libre de catalogage et de publication de données ouvertes qui propulse la plateforme data.gouv.fr (17 millions de visite en 2021).
+Son code est ouvert depuis sa création en 2013 et il est réutilisé et personnalisé par différents pays, administrations, collectivités, etc. 
+Il est activement maintenu par Etalab. 
+
 
 ## Modop d'utilisation du docker UData
 
