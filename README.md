@@ -48,3 +48,6 @@ udata create user
 Il est à présent possible d'utiliser l'interface graphique pour la suite, en LocalHost
 
 Accès à UData via [localhost:7000](localhost:7000)
+
+
+Si le port 7000 est déjà utilisé par une autre application sur la machine, il faut modifier le fichier docker-compose.yml pour utiliser un port différent ou arrêter les autres services qui l'utilisent.
