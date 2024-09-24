@@ -1,9 +1,13 @@
 # UData
-Repo pour l'exo udata du cours sur les catalogues de données  
 udata est un logiciel libre de catalogage et de publication de données ouvertes qui propulse la plateforme data.gouv.fr (17 millions de visite en 2021).
 Son code est ouvert depuis sa création en 2013 et il est réutilisé et personnalisé par différents pays, administrations, collectivités, etc. 
 Il est activement maintenu par Etalab. 
+### Repo pour l'exo udata du cours sur les catalogues de données  
 
+### liens de documentation  
+tuto de deployement :https://hackmd.io/@ameklou/r1L7h6b1S  
+doc : https://udata.readthedocs.io/en/stable/  
+git : https://github.com/opendatateam/udata  
 
 ## Modop d'utilisation du docker UData
 
@@ -55,3 +59,39 @@ Accès à UData via [localhost:7000](localhost:7000)
 
 
 Si le port 7000 est déjà utilisé par une autre application sur la machine, il faut modifier le fichier docker-compose.yml pour utiliser un port différent ou arrêter les autres services qui l'utilisent.
+
+## publier des données  
+https://guides.data.gouv.fr/guide-data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees  
+
+1. création d'une organisation
+2. ajout d'un dataset
+- administration \-> "+" (en haut à droite) \-> add a dataset  
+    1. Publish as Choose who is publishing  
+		Choose under which identity you want to publish  
+    2. New dataset Describe your dataset  
+		 Title  
+		Acronym  
+		Description 
+		License  (choix multiple)
+		Update frequency  
+		Tags  
+		Temporal coverage (debut/fin)  
+		Spatial coverage  
+		Spatial granularity  (choix multiple)
+		Private  (yes/no)  
+    3. Resources Add your first resources  
+		Drag a file here  
+				Title  
+				Type
+				Description  
+				URL  => créé automatiquement mais bug, valider quand même
+				Size  
+				Format  
+				Mime Type  
+				Checksum  
+				sha1  (n° d'identifiant créé automatiquement)
+
+    4. Share Communicate about your publication 
+			Your dataset has been created
+			choisir entre see in the administration   ou see on the site
+	
